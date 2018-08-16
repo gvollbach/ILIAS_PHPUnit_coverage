@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit>
+	<filter>
+		<whitelist>
+			<directory suffix=".php">ILIAS/src</directory>
+			<directory suffix=".php">ILIAS/Modules</directory>	
+			<directory suffix=".php">ILIAS/setup</directory>	
+			<directory suffix=".php">ILIAS/Services</directory>
+			<directory suffix=".php">ILIAS/webservice</directory>			
+			<exclude>
+				<directory suffix=".php">ILIAS/libs/</directory>
+				<directory suffix=".php">ILIAS/tests</directory>
+				<directory suffix=".php">ILIAS/src/examples/</directory>
+				<directory suffix=".php">ILIAS/Services/FileDelivery/test</directory>
+				<directory suffix=".php">ILIAS/Services/Mail/test</directory>
+				<directory suffix=".php">ILIAS/Services/WorkflowEngine/test</directory>
+				<directory suffix=".php">ILIAS/Services/Password/test</directory>
+				<directory suffix=".php">ILIAS/Services/AccessControl/test</directory>
+				<directory suffix=".php">ILIAS/Services/Saml/test</directory>
+				<directory suffix=".php">ILIAS/Services/Authentication/test</directory>
+				<directory suffix=".php">ILIAS/Services/Tracking/test</directory>
+				<directory suffix=".php">ILIAS/Services/Utilities/test</directory>
+				<directory suffix=".php">ILIAS/Services/PDFGeneration/test</directory>
+				<directory suffix=".php">ILIAS/Services/User/test</directory>
+				<directory suffix=".php">ILIAS/Services/PHPUnit/test</directory>
+				<directory suffix=".php">ILIAS/Services/TermsOfService/test</directory>
+				<directory suffix=".php">ILIAS/Services/Administration/test</directory>
+				<directory suffix=".php">ILIAS/Services/Style/test</directory>
+				<directory suffix=".php">ILIAS/Services/Style/System/test</directory>
+				<directory suffix=".php">ILIAS/Services/Membership/test</directory>
+				<directory suffix=".php">ILIAS/Services/Init/test</directory>
+				<directory suffix=".php">ILIAS/Services/WebAccessChecker/test</directory>
+				<directory suffix=".php">ILIAS/Services/Contact/test</directory>
+				<directory suffix=".php">ILIAS/Services/Contact/BuddySystem/test</directory>
+				<directory suffix=".php">ILIAS/Services/UICore/test</directory>
+				<directory suffix=".php">ILIAS/Services/MetaData/test</directory>
+				<directory suffix=".php">ILIAS/Services/Math/test</directory>
+				<directory suffix=".php">ILIAS/Services/XHTMLPage/test</directory>
+				<directory suffix=".php">ILIAS/Services/Cache/test</directory>
+				<directory suffix=".php">ILIAS/Services/Tree/test</directory>
+				<directory suffix=".php">ILIAS/Services/Object/test</directory>
+				<directory suffix=".php">ILIAS/Services/Context/test</directory>
+				<directory suffix=".php">ILIAS/Services/Database/test</directory>
+				<directory suffix=".php">ILIAS/Modules/TestQuestionPool/test</directory>
+				<directory suffix=".php">ILIAS/Modules/WebResource/test</directory>
+				<directory suffix=".php">ILIAS/Modules/Chatroom/test</directory>
+				<directory suffix=".php">ILIAS/Modules/Chatroom/chat/test</directory>
+				<directory suffix=".php">ILIAS/Modules/IndividualAssessment/test</directory>
+				<directory suffix=".php">ILIAS/Modules/Course/test</directory>
+				<directory suffix=".php">ILIAS/Modules/Test/test</directory>
+				<directory suffix=".php">ILIAS/Modules/DataCollection/test</directory>
+				<directory suffix=".php">ILIAS/Modules/StudyProgramme/test</directory>
+				<directory suffix=".php">ILIAS/setup/sql</directory>
+				<directory suffix=".php">ILIAS/setup/test</directory>
+			</exclude>
+		</whitelist>
+	</filter>
+</phpunit>
